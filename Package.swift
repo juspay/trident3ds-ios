@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Trident3DS",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Trident3DS",
-            url: "https://public.releases.juspay.in/release/ios/trident/1.0.5/Trident.zip",
-            checksum: "3c2af814a89236645233c1585f89bc70de0943a831ff8cddc474445ab89fcc5b"
+            url: "https://public.releases.juspay.in/release/ios/trident/2.0.0/Trident.zip",
+            checksum: "2a576037b42601604991299a182ea563e819f5d157b4063d77fbb756e1736cd0"
         )
     ]
 )
