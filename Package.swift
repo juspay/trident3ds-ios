@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Trident3DS",
-            url: "https://public.releases.juspay.in/release/ios/trident/2.0.1/Trident.zip",
-            checksum: "b38e3a857a08ddc1eb4571a06832c225d85ff596ec389b013949830e82b4b0f9"
+            url: "https://public.releases.juspay.in/release/ios/trident/2.0.2/Trident.zip",
+            checksum: "05ee55f89bfffdc1e4d5d625f71a929a3fe0974951523d8ed61730ae53fd7f88"
         )
     ]
 )
